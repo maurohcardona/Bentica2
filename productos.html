@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" productos de bentica, jabones y acondicionadores sólidos">
+    <meta name="keywords" content="jabon, acondicionador, sólido, bentica, natural, productos">
+    <link rel="icon" type="image/png" href="./imagenes/logo.png"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bentica-productos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid flex-md-column ">
+              <a class="navbar-brand logo" href="./index.html">
+                <img src="./imagenes/logo-removebg-preview (2).png" class="header__logo" alt="Logo de Bentica">
+              </a>
+              <button class="navbar-toggler align-self-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+                <div class="navbar-nav container-fluid d-flex flex-md-row justify-content-evenly">
+                  <a class="nav-link fs-5 " aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link fs-5 " href="./quienes-somos.html">Quiénes somos</a>
+                  <a class="nav-link fs-5 active" href="./productos.html">Productos</a>
+                  <a class="nav-link fs-5 " href="./buscanos.html">Buscanos</a>
+                  <a class="nav-link fs-5 " href="./contacto.html">Contacto</a>
+                  <a class="nav-icon position-relative text-decoration-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="./imagenes/compras.png.png" class="carrito">
+                    <span id="cantidadCarrito"  class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito <button onclick="vaciarcarrito()" id="vaciarcarrito">vaciar el Carrito</button></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div id="seccion-carrito" class="offcanvas-body">
+              
+            </div>
+          </div>
+        </header>             
+   
+            <main class="section-index">
+    
+               <section id="seccion-card" class="row gx-4 gx-lg-5 row-col-2 row-colds-md-3 row-cols-xl-4 m-5">
+                   <!--<h1 class="h1 pt-5 text-center">SHAMPOO Y ACONDICIONADOR SÓLIDOS</h1>
+                   <h2 class="h2 pt-5 text-center pb-5">Para cabellos secos</h2>
+                        <ul class="d-flex li_productos flex-md-row align-items-center justify-content-evenly">
+                            <li class="list-unstyled"><img src="./imagenes/sahmpoo-seco.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Shampoo sólido Rosa Mosqueta</p></li>
+                            <li class="list-unstyled"><img src="./imagenes/acondicionador-seco.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Acondicionador sólido Rosa Mosqueta</p></li>
+                        </ul>
+                    <h2 class="h2 pt-5 text-center pb-5">Para cabellos normales</h2>
+                        <ul class="d-flex li_productos flex-md-row align-items-center justify-content-evenly">
+                            <li class="list-unstyled"><img src="./imagenes/shampoo-normales.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Shampoo sólido Aceite de almendras</p></li>
+                            <li class="list-unstyled"><img src="./imagenes/acondicionador-normales.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Acondicionador sólido Aceite de almendras</p></li>
+                        </ul>
+                    <h2 class="h2 pt-5 text-center pb-5">Para cabellos grasos</h2>
+                        <ul class="d-flex li_productos flex-md-row align-items-center justify-content-evenly">
+                            <li class="list-unstyled"><img src="./imagenes/shampoo-grasos.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Shampoo sólido Té Verde</p></li>
+                            <li class="list-unstyled"><img src="./imagenes/acondicionador grasos.jpg" class="fotitos-productos shadow p-3 mb-5 bg-body rounded"><p class="fst-italic fw-bold p_productos">Acondicionador sólido Té Verde</p></li>
+                        </ul>-->
+                </section> 
+                    <div class="aside fst-italic">
+                        <p>Si te interesa alguno de nuestros productos, podés ingresar a nuestra <a href="https://bentica.mitiendanube.com/" target="blank"> Tienda Virtual </a>y ver las ofertas</p>
+                    </div>
+                </main>                    
+                <footer class="container-fluid">
+            
+                    <div class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+                        <a  href="https://www.instagram.com/benticacosmetica/" target="blank" >
+                            <img class="logos" src="./imagenes/logo instagram.png" >
+                        </a>
+                            <a href="https://www.facebook.com/BenticaCosmetica" target="blank" >
+                         <img class="logos" src="./imagenes/logo facebook.png" > 
+                        </a> 
+                            <a href="https://wa.me/541171350471" target="blank" >
+                             <img class="logos" src="./imagenes/logo-wp.png.png" >
+                        </a>
+                    </div>
+                    <p class="text-center pt-3">
+                        BÉNTICA COSMÉTICA <br>
+                        ~ sentir el cambio ~<br>
+                        Farmacéuticas especialistas en Química Cosmética <br>
+                        Hace tu pedido en <a class="footer__a" href="https://bentica.mitiendanube.com/" target="blank">Nuestra tienda virtual</a>
+                        </p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <script src="carrito.js"></script>
+    </body>
+    </html>
+    
