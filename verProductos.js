@@ -14,7 +14,7 @@ const agregarAlCarrito = (producto) => {
     console.log(carrito);
     document.getElementById("cantidadCarrito").innerHTML = carrito.length;
     localStorage.setItem('carrito', JSON.stringify(carrito))
-    carrito.forEach((producto) => {
+    /*carrito.forEach((producto) => {
     const idButton = `add-cart${producto.id}`;
         document.getElementById("seccion-carrito").innerHTML += `<div class='card m-2'>
         <p>${producto.nombre}</p>
@@ -31,7 +31,7 @@ const agregarAlCarrito = (producto) => {
         <button onclick="sacarDelCarrito(${producto.id})" id="sacar${producto.id}">Sacar del carrito</button>
         </div>`
         
-    })
+    })*/
     
 }
 
