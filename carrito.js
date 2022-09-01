@@ -12,7 +12,7 @@ document.getElementById("cantidadCarrito").innerHTML = carrito.length ?? 0;
 
 
 
-const pCarrito = carrito.forEach((producto) => {
+/*const pCarrito = carrito.forEach((producto) => {
     
     const idButton = `add-cart${producto.id}`;
     document.getElementById("seccion-carrito").innerHTML += `<div class='card m-2'>
@@ -30,7 +30,7 @@ const pCarrito = carrito.forEach((producto) => {
     <button onclick="sacarDelCarrito(${producto.id})" id="sacar${producto.id}">Sacar del carrito</button>
     </div>`
     
-})
+})*/
 
     
 
