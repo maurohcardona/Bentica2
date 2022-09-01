@@ -1,0 +1,103 @@
+/* extend */
+.li_productos {
+  display: flex;
+  flex-direction: column; }
+
+/*mixin*/
+/* maps */
+.header__logo {
+  display: block;
+  width: 800px;
+  height: 800px;
+  position: relative;
+  animation-name: rotacion;
+  animation-duration: 20s;
+  animation-iteration-count: infinite; }
+
+@keyframes rotacion {
+  0% {
+    transform: rotatey(0deg); }
+  10% {
+    transform: rotatey(360deg); }
+  90% {
+    transform: rotatey(360deg); }
+  100% {
+    transform: rotatey(0deg); } }
+  
+    .carrito {
+     width: 50px;
+     height: 50px;
+  }
+
+.logos {
+  margin-top: 30px;
+  width: 30px;
+  height: 30px; }
+
+.section-index {
+  background-color: #D2C7B5;
+  font-size: 20px; }
+
+.imgen-index {
+  width: 100%; }
+
+.fotitos-productos {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; }
+
+.p_productos {
+  font-size: 20px; }
+
+.aside {
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  background-color: #bfaf95;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .aside p {
+    text-align: justify; }
+  .aside a {
+    text-decoration: none; }
+
+.container5 {
+  max-width: 500px; }
+
+.h2 {
+  font-size: 24px; }
+
+.p {
+  font-size: 20px; }
+
+.li-buscanos {
+  display: flex;
+  flex-direction: column; }
+
+  
+
+@media screen and (min-width: 991px) {
+  .header__logo {
+    width: 150px;
+    height: 150px; }
+  .nav-link {
+    display: flex;
+    transition: transform 1s; }
+  .nav-link:hover {
+    transform: scale(1.2); } }
+
+
+ .fotocarrito {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+ }
+ .cantidadcarrito {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  text-align: center;
+ }

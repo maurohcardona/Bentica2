@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" inicio de jabon y acondicionador solidos">
+    <meta name="keywords" content="jabon, acondicionador, solido, bentica, natural">
+    <link rel="icon" type="image/png" href="./imagenes/logo.png"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bentica-index</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid flex-md-column ">
+          <a class="navbar-brand logo" href="./index.html">
+            <img src="./imagenes/logo-removebg-preview (2).png" class="header__logo" alt="Logo de Bentica">
+          </a>
+          <button class="navbar-toggler align-self-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+            <div class="navbar-nav container-fluid d-flex flex-md-row justify-content-evenly">
+              <a class="nav-link fs-5 " aria-current="page" href="index.html">Home</a>
+              <a class="nav-link fs-5 " href="./quienes-somos.html">Quiénes somos</a>
+              <a class="nav-link fs-5 active" href="./productos.html">Productos</a>
+              <a class="nav-link fs-5 " href="./buscanos.html">Buscanos</a>
+              <a class="nav-link fs-5 " href="./contacto.html">Contacto</a>
+              <a class="nav-icon position-relative text-decoration-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <img src="./imagenes/compras.png.png" class="carrito">
+                <span id="cantidadCarrito"  class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito <button onclick="vaciarcarrito()" id="vaciarcarrito">vaciar el Carrito</button></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div id="seccion-carrito" class="offcanvas-body">
+          
+        </div>
+      </div>
+    </header>              
+           
+           <main class="container-fluid section-index">
+                
+                <section>
+                
+               <h1 class="h1 pt-5 pb-5">Puntos de venta</h1>
+               <h3 class="h3 pt-5 pb-5">Farmacia Minuzzi</h3>
+                    <ul class="d-flex li-buscanos flex-md-row align-items-center justify-content-evenly">
+                        <li class="list-unstyled fst-italic fw-bold text-center">Rosario de Santa Fé 75 (Córdoba)
+                        <p class="pt-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.922648521065!2d-64.18513938558391!3d-31.416257181404166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29cb42cc1e5%3A0x6afad06c8cb9cbc3!2sRosario%20de%20Sta.%20Fe%2085%2C%20X5000ACA%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1648155116310!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe shadow p-3 mb-5 bg-body rounded"></iframe></p></li>
+                        <li class="list-unstyled fst-italic fw-bold" >Av. Vélez Sársfield 34 (Córdoba)
+                        <p class="pt-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.948967646867!2d-64.18949018558399!3d-31.415532081404447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2824c8ed2e9%3A0x3205901c4f3effb9!2sAv.%20V%C3%A9lez%20Sarsfield%2034%2C%20X5000BDB%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1648155225129!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe shadow p-3 mb-5 bg-body rounded"></iframe></p></li>
+        
+               </ul>
+               <h3 class="h3 pt-5 pb-5">Farmacia Plaza</h3>
+                    <ul class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+                        <li class="list-unstyled fst-italic fw-bold text-center">Av. Constitución 5701 (Mar del PLata)
+                        <p class="pt-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.648370324087!2d-57.562863485353276!3d-37.96199557972573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d97bd06dad91%3A0xe4d116636d43b7c3!2sAv.%20Constituci%C3%B3n%205701%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1648155378357!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe shadow p-3 mb-5 bg-body rounded"></iframe></p></li>
+                    </ul>
+                <h3 class="h3 pt-5 pb-5">Dietética Nutrilight</h3>
+                    <ul class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+                        <li class="list-unstyled fst-italic fw-bold text-center">Gallo 1687 (CABA)
+                        <p class="pt-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5150493636156!2d-58.41034568547676!3d-34.591135380462724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca848dc29547%3A0x8c95579de8cf53c2!2sGallo%201687%2C%20C1425EFI%20CABA!5e0!3m2!1ses!2sar!4v1648155504093!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe shadow p-3 mb-5 bg-body rounded"></iframe></p></li>
+                    </ul>
+                </section> 
+                </main>
+                <footer class="container-fluid">
+            
+                    <div class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+                        <a  href="https://www.instagram.com/benticacosmetica/" target="blank" >
+                            <img class="logos" src="./imagenes/logo instagram.png" >
+                        </a>
+                            <a href="https://www.facebook.com/BenticaCosmetica" target="blank" >
+                         <img class="logos" src="./imagenes/logo facebook.png" > 
+                        </a> 
+                            <a href="https://wa.me/541171350471" target="blank" >
+                             <img class="logos" src="./imagenes/logo-wp.png.png" >
+                        </a>
+                    </div>
+                    <p class="text-center pt-3">
+                        BÉNTICA COSMÉTICA <br>
+                        ~ sentir el cambio ~<br>
+                        Farmacéuticas especialistas en Química Cosmética <br>
+                        Hace tu pedido en <a class="footer__a" href="https://bentica.mitiendanube.com/" target="blank">Nuestra tienda virtual</a>
+                        </p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="carrito.js"></script>
+    </body>
+    </html>
+    

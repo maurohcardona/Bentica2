@@ -1,0 +1,26 @@
+$color-principal: #D2C7B5;
+
+/* extend */
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/*mixin*/
+@mixin flexbox ($display, $flex-direction) {
+    display: $display;
+    flex-direction: $flex-direction;
+}
+    
+
+
+
+
+/* maps */
+$tamaño-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 20px,
+    productos: 20px,
+)
+

@@ -1,0 +1,9 @@
+.h2 {
+    font-size: map-get($tamaño-tipografia, titulos);
+}
+
+.p {
+    font-size: map-get($tamaño-tipografia, parrafos);   
+}
+
+
