@@ -1,4 +1,4 @@
-carrito = JSON.parse(localStorage.getItem('carrito')) ?? [];
+let carrito = JSON.parse(localStorage.getItem('carrito')) ?? [];
 document.getElementById("cantidadCarrito").innerHTML = carrito.length ?? 0;
 
 
