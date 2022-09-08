@@ -1,0 +1,9 @@
+[
+    {"id": 1, "nombre":"Shampoo sólido Rosa Mosqueta", "precio":1000, "imagen":"./imagenes/sahmpoo-seco.jpg"},
+    {"id": 2, "nombre":"Acondicionador sólido Rosa Mosqueta", "precio":1000, "imagen":"./imagenes/acondicionador-seco.jpg"},
+    {"id": 3, "nombre":"Shampoo sólido Aceite de almendras", "precio":1200, "imagen":"./imagenes/shampoo-normales.jpg"},
+    {"id": 4, "nombre":"Acondicionador sólido Aceite de almendras", "precio":1200,"imagen":"./imagenes/acondicionador-normales.jpg"},
+    {"id": 5, "nombre":"Shampoo sólido Té Verde", "precio":1300,"imagen":"./imagenes/shampoo-grasos.jpg"},
+    {"id": 6, "nombre":"Acondicionador sólido Té Verde", "precio":1300,"imagen":"./imagenes/acondicionador grasos.jpg"}
+        
+]
