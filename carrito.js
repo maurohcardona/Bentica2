@@ -14,9 +14,7 @@ const ProductoAMostrar = JSON.parse(localStorage.getItem('verProducto')) ?? ""
     
 let filtroPrecio= ""
 let precioTotal =""
-let carritoSinDuplicados =[]
-let miItem =[]
-let numeroUnidadesItem = []
+
  
 function randerizarCarrito() {
 
